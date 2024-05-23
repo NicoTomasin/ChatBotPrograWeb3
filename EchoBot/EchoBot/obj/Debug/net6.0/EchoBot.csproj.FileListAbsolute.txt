@@ -56,3 +56,4 @@ D:\documento\Desktop\Universidad\Progra Web 3\Project\ChatbotProject\EchoBot\Ech
 D:\documento\Desktop\Universidad\Progra Web 3\Project\ChatbotProject\EchoBot\EchoBot\obj\Debug\net6.0\EchoBot.pdb
 D:\documento\Desktop\Universidad\Progra Web 3\Project\ChatbotProject\EchoBot\EchoBot\obj\Debug\net6.0\EchoBot.genruntimeconfig.cache
 D:\documento\Desktop\Universidad\Progra Web 3\Project\ChatbotProject\EchoBot\EchoBot\obj\Debug\net6.0\ref\EchoBot.dll
+D:\documento\Desktop\Universidad\Progra Web 3\Project\ChatbotProject\EchoBot\EchoBot\obj\Debug\net6.0\EchoBot.sourcelink.json
