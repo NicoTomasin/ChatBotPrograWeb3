@@ -1,0 +1,14 @@
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\BotPelis\obj\Debug\net6.0\BotPelis.csproj.AssemblyReference.cache
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\BotPelis\obj\Debug\net6.0\BotPelis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\BotPelis\obj\Debug\net6.0\BotPelis.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\BotPelis\obj\Debug\net6.0\BotPelis.AssemblyInfo.cs
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\BotPelis\obj\Debug\net6.0\BotPelis.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\BotPelis\obj\Debug\net6.0\BotPelis.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\BotPelis\obj\Debug\net6.0\BotPelis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\custom-dialogs\obj\Debug\net6.0\BotPelis.csproj.AssemblyReference.cache
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\custom-dialogs\obj\Debug\net6.0\BotPelis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\custom-dialogs\obj\Debug\net6.0\BotPelis.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\custom-dialogs\obj\Debug\net6.0\BotPelis.AssemblyInfo.cs
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\custom-dialogs\obj\Debug\net6.0\BotPelis.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\custom-dialogs\obj\Debug\net6.0\BotPelis.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nico\Desktop\Web3\botbuilder-samples\custom-dialogs\obj\Debug\net6.0\BotPelis.MvcApplicationPartsAssemblyInfo.cache
