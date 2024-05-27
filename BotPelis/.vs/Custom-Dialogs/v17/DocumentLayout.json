@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|c:\\users\\nico\\desktop\\web3\\botbuilder-samples\\custom-dialogs\\dialogs\\masvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|solutionrelative:dialogs\\masvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|c:\\users\\nico\\desktop\\web3\\botbuilder-samples\\custom-dialogs\\dialogs\\pelicularandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|solutionrelative:dialogs\\pelicularandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|c:\\users\\nico\\desktop\\web3\\botbuilder-samples\\custom-dialogs\\dialogs\\recomendarpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|solutionrelative:dialogs\\recomendarpelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|c:\\users\\nico\\desktop\\web3\\botbuilder-samples\\custom-dialogs\\dialogs\\top10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D158B687-95B2-44DB-8B26-8D3FD9905CCA}|Custom-Dialogs.csproj|solutionrelative:dialogs\\top10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Top10.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\Top10.cs",
+              "RelativeDocumentMoniker": "Dialogs\\Top10.cs",
+              "ToolTip": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\Top10.cs",
+              "RelativeToolTip": "Dialogs\\Top10.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:27:53.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeliculaRandom.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\PeliculaRandom.cs",
+              "RelativeDocumentMoniker": "Dialogs\\PeliculaRandom.cs",
+              "ToolTip": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\PeliculaRandom.cs",
+              "RelativeToolTip": "Dialogs\\PeliculaRandom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:11:13.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasVista.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\MasVista.cs",
+              "RelativeDocumentMoniker": "Dialogs\\MasVista.cs",
+              "ToolTip": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\MasVista.cs",
+              "RelativeToolTip": "Dialogs\\MasVista.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:10:50.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecomendarPelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\RecomendarPelicula.cs",
+              "RelativeDocumentMoniker": "Dialogs\\RecomendarPelicula.cs",
+              "ToolTip": "C:\\Users\\Nico\\Desktop\\Web3\\botbuilder-samples\\custom-dialogs\\Dialogs\\RecomendarPelicula.cs",
+              "RelativeToolTip": "Dialogs\\RecomendarPelicula.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwF4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:24:09.228Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
