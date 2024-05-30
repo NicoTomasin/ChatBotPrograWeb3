@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BotPeliculas.Interfaces/1.0.0": {
+        "dependencies": {
+          "BotPeliculas.Models": "1.0.0"
+        },
+        "runtime": {
+          "BotPeliculas.Interfaces.dll": {}
+        }
+      },
+      "BotPeliculas.Models/1.0.0": {
+        "runtime": {
+          "BotPeliculas.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BotPeliculas.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BotPeliculas.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

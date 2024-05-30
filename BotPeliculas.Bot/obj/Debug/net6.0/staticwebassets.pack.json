@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nico\\Desktop\\Web3\\ChatBotPrograWeb3\\BotPeliculas.Bot\\wwwroot\\default.htm",
+      "PackagePath": "staticwebassets\\default.htm"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BotPeliculas.Bot.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BotPeliculas.Bot.props",
+      "PackagePath": "build\\BotPeliculas.Bot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BotPeliculas.Bot.props",
+      "PackagePath": "buildMultiTargeting\\BotPeliculas.Bot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BotPeliculas.Bot.props",
+      "PackagePath": "buildTransitive\\BotPeliculas.Bot.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
