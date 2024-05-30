@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BotPeliculas.Interfaces</id>
+    <version>1.0.0</version>
+    <authors>BotPeliculas.Interfaces</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="62115004e8bb72c73915d7f88cf4efa9ca899632" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="BotPeliculas.Models" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Debug\net6.0\BotPeliculas.Interfaces.dll" target="lib\net6.0\BotPeliculas.Interfaces.dll" />
+  </files>
+</package>
