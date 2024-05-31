@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotPeliculas.Interfaces", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotPeliculas.Services", "..\BotPeliculas.Services\BotPeliculas.Services.csproj", "{2A3A7A61-073D-4F5F-A405-76EAC18087B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotPeliculas.Tests", "..\BotPeliculas.Tests\BotPeliculas.Tests.csproj", "{1B838AC1-A42F-4832-98CD-BF7158F4C770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotPeliculas.Tests", "..\BotPeliculas.Tests\BotPeliculas.Tests.csproj", "{1B838AC1-A42F-4832-98CD-BF7158F4C770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotPeliculas.FrontEnd", "..\BotPeliculas.FrontEnd\BotPeliculas.FrontEnd.csproj", "{D94058B7-B489-4E4A-A7DB-E12879391393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1B838AC1-A42F-4832-98CD-BF7158F4C770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B838AC1-A42F-4832-98CD-BF7158F4C770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B838AC1-A42F-4832-98CD-BF7158F4C770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94058B7-B489-4E4A-A7DB-E12879391393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94058B7-B489-4E4A-A7DB-E12879391393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94058B7-B489-4E4A-A7DB-E12879391393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94058B7-B489-4E4A-A7DB-E12879391393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
