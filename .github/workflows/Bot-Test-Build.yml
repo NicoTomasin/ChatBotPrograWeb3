@@ -2,12 +2,13 @@ name: Bot-Test-Build
 on:
   push:
     paths-ignore: 
-      -'**/*.md'
+      - '**/*.md'
+
 jobs: 
   OnPush:
     runs-on: ubuntu-latest
     env: 
-      DOTNET_CORE_VERSION: 6.0.X
+      DOTNET_VERSION: 6.0
       DOTNET_CLI_TELEMETRY_OUTPUT: 1
       DOTNET_NOLOGO: TRUE
       BUILD_CONFIG: Release
@@ -17,17 +18,17 @@ jobs:
       - name: Checkout ('${{ github.repository }}' cloned)
         uses: actions/checkout@v2
 
-      - name: Setup DotNet Core (${{env.DOTNET_CORE_VERSION}})
+      - name: Setup .NET (${{ env.DOTNET_VERSION }})
         uses: actions/setup-dotnet@v1
         with: 
-          dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
+          dotnet-version: ${{ env.DOTNET_VERSION }}
           
       - name: Restore Packages
-        run: dotnet restore ${{env.BOT_PATH}}
+        run: dotnet restore ${{ env.BOT_PATH }}
 
-      - name: build
-        run: dotnet build --configuration ${{env.BUILD_CONFIG}}
-        working-directory: "${{env.BOT_PATH}}"
+      - name: Build
+        run: dotnet build --configuration ${{ env.BUILD_CONFIG }}
+        working-directory: "${{ env.BOT_PATH }}"
 
-      - name: test
-        run: dotnet test ${{env.TESTS_PATH}}
+      - name: Test
+        run: dotnet test ${{ env.TESTS_PATH }}
