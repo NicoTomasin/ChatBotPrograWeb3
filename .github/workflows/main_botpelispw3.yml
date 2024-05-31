@@ -35,8 +35,8 @@ jobs:
         run: dotnet test ${{ env.TESTS_PATH }}
         
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{ env.BOT_PUBLISH }}
-
+        run: dotnet publish --configuration ${{ env.BUILD_CONFIG }} ${{ env.BOT_PATH }}
+        
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
