@@ -12,7 +12,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env: 
+      DOTNET_CLI_TELEMETRY_OUTPUT: 1
+      DOTNET_NOLOGO: TRUE
+      BUILD_CONFIG: Release
+      BOT_PATH: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
+      TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
+      AZURE_WEBAPP_NAME: 'BotPeliculasPw3'
+      AZURE_RESOURCE_GROUP: 'BotPeliculasPw3 '
+      
     steps:
       - uses: actions/checkout@v4
 
@@ -22,17 +30,20 @@ jobs:
           dotnet-version: '6.0.x'
           include-prerelease: true
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
+      - name: Build
+        run: dotnet build --configuration ${{ env.BUILD_CONFIG }} ${{ env.BOT_PATH }}
 
+      - name: Test
+        run: dotnet test ${{ env.TESTS_PATH }}
+        
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish -c Release -o ${{ env.BOT_PATH }}
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: ${{ env.BOT_PATH }}
 
   deploy:
     runs-on: ubuntu-latest
