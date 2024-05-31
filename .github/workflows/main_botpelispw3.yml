@@ -17,10 +17,8 @@ jobs:
       DOTNET_NOLOGO: TRUE
       BUILD_CONFIG: Release
       BOT_PATH: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
-      TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
-      AZURE_WEBAPP_NAME: 'BotPeliculasPw3'
-      AZURE_RESOURCE_GROUP: 'BotPeliculasPw3 '
-      
+      BOT_PUBLISH: 'BotPeliculas.Bot'
+      TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'      
     steps:
       - uses: actions/checkout@v4
 
@@ -37,7 +35,7 @@ jobs:
         run: dotnet test ${{ env.TESTS_PATH }}
         
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{ env.BOT_PATH }}
+        run: dotnet publish -c Release -o ${{ env.BOT_PUBLISH }}
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
