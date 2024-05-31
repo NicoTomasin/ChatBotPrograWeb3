@@ -33,14 +33,14 @@ La idea detras del bot es que mediante diferentes menus, te recomiende una pelic
 #### Get Poster
 
 ```http
-  GET image.tmdb.org/t/p/w300_and_h450_bestv2/
+  GET image.tmdb.org/t/p/w300_and_h450_bestv2
 
 ```
 
 | Parametro | Tipo     | Descripcion                |
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. API key |
-| `poster_path` | `string` | *Opcional*. . API key |
+| `poster_path` | `string` | *Opcional*. |
 
 
 ## Documentacion
