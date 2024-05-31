@@ -13,6 +13,8 @@ jobs:
       BUILD_CONFIG: Release
       BOT_PATH: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
       TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
+      AZURE_WEBAPP_NAME: 'BotPeliculasPw3'
+      AZURE_RESOURCE_GROUP: 'BotPeliculasPw3 '
     steps: 
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -30,3 +32,10 @@ jobs:
 
       - name: Test
         run: dotnet test ${{ env.TESTS_PATH }}
+
+      - name: Deploy to Azure
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          resource-group: ${{ env.AZURE_RESOURCE_GROUP }}
+          package: ${{ github.workspace }}/BotPeliculas.Bot/bin/${{ env.BUILD_CONFIG }}/net6.0/publish
