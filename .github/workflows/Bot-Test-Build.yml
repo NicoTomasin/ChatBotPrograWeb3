@@ -8,27 +8,26 @@ jobs:
   OnPush:
     runs-on: ubuntu-latest
     env: 
-      DOTNET_VERSION: 6.0
       DOTNET_CLI_TELEMETRY_OUTPUT: 1
       DOTNET_NOLOGO: TRUE
       BUILD_CONFIG: Release
       BOT_PATH: 'BotPeliculas.Bot'
       TESTS_PATH: 'BotPeliculas.Tests'
     steps: 
-      - name: Checkout ('${{ github.repository }}' cloned)
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Setup .NET (${{ env.DOTNET_VERSION }})
+      - name: Setup .NET 6.0
         uses: actions/setup-dotnet@v1
         with: 
-          dotnet-version: ${{ env.DOTNET_VERSION }}
+          dotnet-version: '6.0'
           
       - name: Restore Packages
         run: dotnet restore ${{ env.BOT_PATH }}
 
       - name: Build
         run: dotnet build --configuration ${{ env.BUILD_CONFIG }}
-        working-directory: "${{ env.BOT_PATH }}"
+        working-directory: ${{ env.BOT_PATH }}
 
       - name: Test
         run: dotnet test ${{ env.TESTS_PATH }}
