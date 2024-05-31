@@ -6,8 +6,12 @@ namespace BotPeliculas.Services
 {
     public class PeliculasService : IPeliculasService
     {
-        private readonly HttpClient _httpClient = new HttpClient();
+        private readonly HttpClient _httpClient;
         private string apiKey = Urls.GetApiKey();
+        public PeliculasService(HttpClient httpClient)
+        {
+            _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+        }
 
         public async Task<Pelicula> MostPopularMovieAsync(string genre)
         {
@@ -32,6 +36,7 @@ namespace BotPeliculas.Services
             string url = Urls.GetTrendingMoviesUrl(apiKey);
             return await FetchMoviesAsync(url);
         }
+
         private async Task<Pelicula> FetchOneMovieAsync(string url)
         {
             HttpResponseMessage response = await _httpClient.GetAsync(url);
@@ -45,6 +50,7 @@ namespace BotPeliculas.Services
             }
             return MapJsonToPelicula(movieJson);
         }
+
         private async Task<List<Pelicula>> FetchMoviesAsync(string url)
         {
             HttpResponseMessage response = await _httpClient.GetAsync(url);
@@ -55,6 +61,7 @@ namespace BotPeliculas.Services
             var movies = json["results"].Take(10).Select(MapJsonToPelicula).ToList();
             return movies;
         }
+
         private Pelicula MapJsonToPelicula(JToken movieJson)
         {
             return new Pelicula
@@ -76,8 +83,5 @@ namespace BotPeliculas.Services
                 VoteCount = (int)movieJson["vote_count"]
             };
         }
-
-
     }
-
 }

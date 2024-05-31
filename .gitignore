@@ -1,7 +1,7 @@
 ﻿################################################################################
 # Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
 ################################################################################
-
+/.vs
 /.vs/ChatBotPrograWeb3/v17
 /BotPeliculas.Bot/.vs
 /BotPeliculas.Services/.vs
