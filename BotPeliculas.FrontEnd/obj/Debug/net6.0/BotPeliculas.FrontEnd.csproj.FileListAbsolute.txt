@@ -29,3 +29,7 @@ C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.pdb
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.genruntimeconfig.cache
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\ref\BotPeliculas.FrontEnd.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Microsoft.Bot.Connector.DirectLine.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.csproj.AssemblyReference.cache
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPelic.FF12CE19.Up2Date

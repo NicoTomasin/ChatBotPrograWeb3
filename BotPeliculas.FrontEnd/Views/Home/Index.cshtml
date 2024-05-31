@@ -1,8 +1,16 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<div id="webchat"></div>
+<script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+<script>
+    const directLine = window.WebChat.createDirectLine({
+        secret: 'sad',
+        domain: 'http://localhost:3978/api/messages',
+    });
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    window.WebChat.renderWebChat({
+        directLine: directLine,
+        userID: 'YOUR_USER_ID',
+        username: 'YOUR_USERNAME',
+        locale: 'es-ES',
+        botAvatarInitials: 'Bot'
+    }, document.getElementById('webchat'));
+</script>
