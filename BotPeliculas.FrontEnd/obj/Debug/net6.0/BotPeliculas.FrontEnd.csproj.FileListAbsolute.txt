@@ -6,6 +6,9 @@ C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.runtimeconfig.json
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.dll
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.pdb
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Microsoft.Bot.Connector.DirectLine.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.csproj.AssemblyReference.cache
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.AssemblyInfoInputs.cache
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.AssemblyInfo.cs
@@ -24,12 +27,9 @@ C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\scopedcss\bundle\BotPeliculas.FrontEnd.styles.css
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\scopedcss\projectbundle\BotPeliculas.FrontEnd.bundle.scp.css
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPelic.FF12CE19.Up2Date
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.dll
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\refint\BotPeliculas.FrontEnd.dll
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.pdb
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.genruntimeconfig.cache
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\ref\BotPeliculas.FrontEnd.dll
-C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Microsoft.Bot.Connector.DirectLine.dll
-C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.csproj.AssemblyReference.cache
-C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPelic.FF12CE19.Up2Date
