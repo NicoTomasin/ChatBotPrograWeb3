@@ -1,75 +1,31 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
-name: Build and deploy ASP.Net Core app to Azure Web App - BotPelisPw3
-
+name: Bot-Test-Build
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:
-
-jobs:
-  build:
+    paths-ignore: 
+      - '**/*.md'
+jobs: 
+  OnPush:
     runs-on: ubuntu-latest
     env: 
       DOTNET_CLI_TELEMETRY_OUTPUT: 1
       DOTNET_NOLOGO: TRUE
       BUILD_CONFIG: Release
       BOT_PATH: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
-      BOT_PUBLISH: 'BotPeliculas.Bot'
-      TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'      
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up .NET Core
+      TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
+      AZURE_WEBAPP_NAME: 'BotPeliculasPw3'
+      AZURE_RESOURCE_GROUP: 'BotPeliculasPw3 '
+    steps: 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup .NET 6.0
         uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'
-          include-prerelease: true
-
+        with: 
+          dotnet-version: '6.0'
+          
+      - name: Restore Packages
+        run: dotnet restore ${{ env.BOT_PATH }}
       - name: Build
         run: dotnet build --configuration ${{ env.BUILD_CONFIG }} ${{ env.BOT_PATH }}
 
       - name: Test
         run: dotnet test ${{ env.TESTS_PATH }}
-        
-      - name: dotnet publish
-        run: dotnet publish --configuration ${{ env.BUILD_CONFIG }} ${{ env.BOT_PATH }}
-        
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
-        with:
-          name: .net-app
-          path: ${{ env.BOT_PATH }}
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    permissions:
-      id-token: write #This is required for requesting the JWT
-
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v3
-        with:
-          name: .net-app
-      
-      - name: Login to Azure
-        uses: azure/login@v1
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C5A7FEF6FA2240F9A1E68ED2A000E548 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_1AC5A37267874DC5AF9B027F962D51C2 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_15057883DB5945498652AACB5948328E }}
-
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: 'BotPeliculas'
-          slot-name: 'Production'
-          package: .
-          
