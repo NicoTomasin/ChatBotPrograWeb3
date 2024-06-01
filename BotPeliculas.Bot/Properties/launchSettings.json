@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://botpeliculaspw3.azurewebsites.net/",
+      "applicationUrl": "https://botpeliculas.azurewebsites.net/",
       "sslPort": 0
     }
   },
@@ -21,7 +21,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://botpeliculaspw3.azurewebsites.net/"
+      "applicationUrl": "https://botpeliculas.azurewebsites.net/"
     }
   }
 }
