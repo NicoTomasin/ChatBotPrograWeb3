@@ -1,4 +1,4 @@
-[![Bot-Test-Build](https://github.com/lucamodic/ChatBotPrograWeb3/actions/workflows/Bot-Test-Build.yml/badge.svg)](https://github.com/lucamodic/ChatBotPrograWeb3/actions/workflows/Bot-Test-Build.yml)
+
 # Bot Recomendador de peliculas
 
 La idea detras del bot es que mediante diferentes menus, te recomiende una pelicula en base a tu estado de animo SIN el uso de NLPs
