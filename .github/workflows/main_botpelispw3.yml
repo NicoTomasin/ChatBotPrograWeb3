@@ -1,3 +1,6 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
 name: Build and deploy ASP.Net Core app to Azure Web App - botpelispw3
 
 on:
@@ -20,18 +23,16 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build BotPeliculas.Bot/BotPeliculas.sln --configuration Release
-      - name: Test
-        run: dotnet test BotPeliculas.Tests/BotPeliculas.Tests.csproj
-        
-      - name: Publish
-        run: dotnet publish BotPeliculas.Bot/BotPeliculas.sln --configuration Release --output ${{github.workspace}}/BotBuild
+        run: dotnet build --configuration Release
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v2
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v3
         with:
-          name: BotBuild
-          path: ${{github.workspace}}/BotBuild
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
     runs-on: ubuntu-latest
@@ -46,14 +47,14 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
-          name: BotBuild
+          name: .net-app
       
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_7A3E548C35C641CEAF901700F8FC9BDF }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_5F4FC2D0A1404963AC1C99BA4C70AD1D }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_64A1B0214FF640AD8F25106F09EFC880 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_2628E381D1914DFE9E521345B386AB0B }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_F4F7063087BF4C20AFDF42930E68F7E1 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1961806F7EEB4991B4038BE622FFAE85 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
