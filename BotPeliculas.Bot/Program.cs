@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using System;
+using Microsoft.Extensions.Logging;
 
 namespace Microsoft.BotBuilderSamples
 {
@@ -10,12 +10,17 @@ namespace Microsoft.BotBuilderSamples
         {
             CreateHostBuilder(args).Build().Run();
         }
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-        Host.CreateDefaultBuilder(args)
-           .ConfigureWebHostDefaults(webBuilder =>
-           {
-               webBuilder.UseStartup<Startup>();
-               webBuilder.UseUrls("http://*:" + (Environment.GetEnvironmentVariable("PORT") ?? "5000"));
-           });
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.ConfigureLogging((logging) =>
+                    {
+                        logging.AddDebug();
+                        logging.AddConsole();
+                    });
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
