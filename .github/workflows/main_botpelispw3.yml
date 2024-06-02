@@ -23,16 +23,18 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build BotPeliculas.Bot/BotPeliculas.sln --configuration Release
+      - name: Test
+        run: dotnet test BotPeliculas.Tests/BotPeliculas.Tests.csproj
+        
+      - name: Publish
+        run: dotnet publish BotPeliculas.Bot/BotPeliculas.sln --configuration Release --output ${{github.workspace}}/BotBuild
 
-      - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
-
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
         with:
-          name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          name: BotBuild
+          path: ${{github.workspace}}/BotBuild
 
   deploy:
     runs-on: ubuntu-latest
