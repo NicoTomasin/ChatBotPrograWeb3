@@ -21,7 +21,9 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build BotPeliculas.Bot/BotPeliculas.sln --configuration Release
-
+      - name: Test
+        run: dotnet test BotPeliculas.Tests/BotPeliculas.Tests.csproj
+        
       - name: Publish
         run: dotnet publish BotPeliculas.Bot/BotPeliculas.sln --configuration Release --output ${{github.workspace}}/BotBuild
 
