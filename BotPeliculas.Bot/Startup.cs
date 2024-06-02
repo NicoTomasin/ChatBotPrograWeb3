@@ -7,7 +7,6 @@ using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Net.Http;
 
 namespace Microsoft.BotBuilderSamples
 {
@@ -48,12 +47,11 @@ namespace Microsoft.BotBuilderSamples
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseCors("AllowAnyOrigin");
-
             app.UseDefaultFiles()
                 .UseStaticFiles()
                 .UseRouting()
                 .UseAuthorization()
+                .UseCors("AllowAnyOrigin")
                 .UseEndpoints(endpoints =>
                 {
                     endpoints.MapControllers();
