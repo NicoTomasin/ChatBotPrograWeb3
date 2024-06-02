@@ -27,17 +27,6 @@ namespace Microsoft.BotBuilderSamples
             services.AddSingleton<IPeliculasService, PeliculasService>();
             services.AddSingleton<RootDialog>();
             services.AddTransient<IBot, DialogBot<RootDialog>>();
-
-            services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAnyOrigin",
-                    builder =>
-                    {
-                        builder.AllowAnyOrigin()
-                            .AllowAnyHeader()
-                            .AllowAnyMethod();
-                    });
-            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -51,7 +40,6 @@ namespace Microsoft.BotBuilderSamples
                 .UseStaticFiles()
                 .UseRouting()
                 .UseAuthorization()
-                .UseCors("AllowAnyOrigin")
                 .UseEndpoints(endpoints =>
                 {
                     endpoints.MapControllers();
