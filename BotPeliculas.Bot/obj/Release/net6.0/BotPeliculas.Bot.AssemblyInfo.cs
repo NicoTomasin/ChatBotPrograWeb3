@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BotPeliculas.FrontEnd")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("BotPeliculas.Bot")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fb23e1af5786b8c6a277353e40665debe28d5ca")]
-[assembly: System.Reflection.AssemblyProductAttribute("BotPeliculas.FrontEnd")]
-[assembly: System.Reflection.AssemblyTitleAttribute("BotPeliculas.FrontEnd")]
+[assembly: System.Reflection.AssemblyProductAttribute("BotPeliculas.Bot")]
+[assembly: System.Reflection.AssemblyTitleAttribute("BotPeliculas.Bot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
