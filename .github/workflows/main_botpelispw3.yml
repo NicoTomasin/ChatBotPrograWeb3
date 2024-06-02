@@ -61,5 +61,5 @@ jobs:
         with:
           app-name: 'botpelispw3'
           slot-name: 'Production'
-          package: BotBuild
+          package: .
           
