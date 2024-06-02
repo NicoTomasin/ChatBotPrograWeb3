@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BotPeliculas.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fb23e1af5786b8c6a277353e40665debe28d5ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a87c2dbd4dc7058142f5c5c06558eb7fa6fa4479")]
 [assembly: System.Reflection.AssemblyProductAttribute("BotPeliculas.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BotPeliculas.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
