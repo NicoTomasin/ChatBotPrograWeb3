@@ -24,7 +24,7 @@ jobs:
           
       - name: build
         run: dotnet build --configuration ${{env.BUILD_CONFIG}}
-        working-directory: "${{ env.BOT_PATH} }"
+        working-directory: "${{ env.BOT_PATH }}"
         
       - name: test
         run: dotnet test ${{ env.TESTS_PATH }}
