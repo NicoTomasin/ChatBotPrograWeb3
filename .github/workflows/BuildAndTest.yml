@@ -9,12 +9,9 @@ jobs:
     env: 
       DOTNET_CLI_TELEMETRY_OUTPUT: 1
       DOTNET_NOLOGO: TRUE
-      BUILD_CONFIG: Release
-      BOT_PATH: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
-      TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
     steps: 
     
-      - name: Checkout ('${{ github.repository }}' cloned)
+      - name: Checkout
         uses: actions/checkout@v2
         
       - name: Setup DotNet Core 6.0
@@ -23,8 +20,8 @@ jobs:
           dotnet-version: '6.0'
           
       - name: build
-        run: dotnet build --configuration ${{env.BUILD_CONFIG}}
-        working-directory: "${{ env.BOT_PATH }}"
+        run: dotnet build --configuration release
+        working-directory: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
         
       - name: test
-        run: dotnet test ${{ env.TESTS_PATH }}
+        run: dotnet test 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
