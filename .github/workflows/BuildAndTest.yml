@@ -19,9 +19,8 @@ jobs:
         with: 
           dotnet-version: '6.0'
           
-      - name: build
-        run: dotnet build --configuration release
-        working-directory: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
+      - name: Build with dotnet
+        run: dotnet build BotPeliculas.Bot/BotPeliculas.sln --configuration Release
         
-      - name: test
-        run: dotnet test 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
+      - name: Test
+        run: dotnet test BotPeliculas.Tests/BotPeliculas.Tests.csproj
