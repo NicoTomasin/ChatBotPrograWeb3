@@ -14,19 +14,30 @@ namespace Microsoft.BotBuilderSamples
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddHttpClient();
-            services.AddControllers().AddNewtonsoftJson(options =>
+            services.AddHttpClient().AddControllers().AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.MaxDepth = HttpHelper.BotMessageSerializerSettings.MaxDepth;
             });
+
             services.AddSingleton<BotFrameworkAuthentication, ConfigurationBotFrameworkAuthentication>();
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
             services.AddSingleton<IStorage, MemoryStorage>();
             services.AddSingleton<UserState>();
             services.AddSingleton<ConversationState>();
-            services.AddSingleton<IPeliculasService, PeliculasService>();
             services.AddSingleton<RootDialog>();
             services.AddTransient<IBot, DialogBot<RootDialog>>();
+            services.AddSingleton<IPeliculasService, PeliculasService>();
+
+            // Deshabilitar CORS (solo para desarrollo)
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -36,10 +47,12 @@ namespace Microsoft.BotBuilderSamples
                 app.UseDeveloperExceptionPage();
             }
 
+            // Aplicar la política de CORS
+            app.UseCors();
+
             app.UseDefaultFiles()
                 .UseStaticFiles()
                 .UseRouting()
-                .UseAuthorization()
                 .UseEndpoints(endpoints =>
                 {
                     endpoints.MapControllers();

@@ -1,0 +1,16 @@
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Release\net6.0\BotPeliculas.Interfaces.deps.json
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Release\net6.0\BotPeliculas.Interfaces.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Release\net6.0\BotPeliculas.Interfaces.pdb
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Release\net6.0\BotPeliculas.Models.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Release\net6.0\BotPeliculas.Models.pdb
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.AssemblyInfo.cs
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.sourcelink.json
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPelic.A9B145A7.Up2Date
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\refint\BotPeliculas.Interfaces.dll
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\BotPeliculas.Interfaces.pdb
+C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Release\net6.0\ref\BotPeliculas.Interfaces.dll

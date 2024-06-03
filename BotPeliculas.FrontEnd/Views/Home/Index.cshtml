@@ -1,16 +1,46 @@
 ﻿<div id="webchat"></div>
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
 <script>
-    const directLine = window.WebChat.createDirectLine({
-        secret: 'sad',
-        domain: 'http://localhost:3978/api/messages',
-    });
+    (async function () {
+        const userID = '2'
+        const userName = '1'
+        const locale ='en-US'
 
-    window.WebChat.renderWebChat({
-        directLine: directLine,
-        userID: 'YOUR_USER_ID',
-        username: 'YOUR_USERNAME',
-        locale: 'es-ES',
-        botAvatarInitials: 'Bot'
-    }, document.getElementById('webchat'));
+        const directLine = window.WebChat.createDirectLine({
+            domain: `http://localhost:55300/v3/directline`, // Puerto de bot emulator
+            webSocket: false
+        });
+        const store = window.WebChat.createStore({}, ({ dispatch }) => next => action => {
+            if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
+                const cachedState = JSON.parse(localStorage.getItem('chatState'));
+                if (cachedState) {
+                    cachedState.activities.forEach(activity => {
+                        dispatch({
+                            type: 'DIRECT_LINE/INCOMING_ACTIVITY',
+                            payload: { activity }
+                        });
+                    });
+                }
+            }
+
+            if (action.type === 'DIRECT_LINE/INCOMING_ACTIVITY' || action.type === 'WEB_CHAT/SEND_POST_BACK') {
+                const state = store.getState();
+                localStorage.setItem('chatState', JSON.stringify({
+                    activities: state.activities
+                }));
+            }
+
+            return next(action);
+        }); 
+        window.WebChat.renderWebChat(
+            {
+                directLine: directLine,
+                userID: userID,
+                username: userName,
+                locale: locale,
+                store: store
+            },
+            document.getElementById('webchat')
+        );
+    })().catch(err => console.error(err));
 </script>
