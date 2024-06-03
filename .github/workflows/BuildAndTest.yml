@@ -13,14 +13,18 @@ jobs:
       BOT_PATH: 'BotPeliculas.Bot/BotPeliculas.Bot.csproj'
       TESTS_PATH: 'BotPeliculas.Tests/BotPeliculas.Tests.csproj'
     steps: 
+    
       - name: Checkout ('${{ github.repository }}' cloned)
         uses: actions/checkout@v2
+        
       - name: Setup DotNet Core 6.0
         uses: actions/setup-dotnet@v1
         with: 
           dotnet-version: '6.0'
+          
       - name: build
         run: dotnet build --configuration ${{env.BUILD_CONFIG}}
         working-directory: "${{ env.BOT_PATH} }"
+        
       - name: test
         run: dotnet test ${{ env.TESTS_PATH }}
