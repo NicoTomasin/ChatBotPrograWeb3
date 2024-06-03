@@ -1,4 +1,4 @@
-[![Build And Test](https://github.com/NicoTomasin/ChatBotPrograWeb3/actions/workflows/BuildAndTest.yml/badge.svg)](https://github.com/NicoTomasin/ChatBotPrograWeb3/actions/workflows/BuildAndTest.yml)
+[![Build And Tests](https://github.com/NicoTomasin/ChatBotPrograWeb3/actions/workflows/BuildAndTest.yml/badge.svg)](https://github.com/NicoTomasin/ChatBotPrograWeb3/actions/workflows/BuildAndTest.yml)
 # Bot Recomendador de peliculas
 
 La idea detras del bot es que mediante diferentes menus, te recomiende una pelicula en base a tu estado de animo SIN el uso de NLPs
