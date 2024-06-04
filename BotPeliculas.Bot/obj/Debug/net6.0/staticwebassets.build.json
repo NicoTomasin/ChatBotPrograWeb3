@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DDO/F9krkvYrZnyN9hiRoJDeQcIXpKAaFbMThf2vbrs=",
+  "Hash": "DEm5nXG6QBkETN/cDJAq3uGUEObv3P0LjhDWtbo02F4=",
   "Source": "BotPeliculas.Bot",
   "BasePath": "_content/BotPeliculas.Bot",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BotPeliculas.Bot\\wwwroot",
       "Source": "BotPeliculas.Bot",
-      "ContentRoot": "C:\\Users\\Nico\\Desktop\\Web3\\ChatBotPrograWeb3\\BotPeliculas.Bot\\wwwroot\\",
+      "ContentRoot": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Bot\\wwwroot\\",
       "BasePath": "_content/BotPeliculas.Bot",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Nico\\Desktop\\Web3\\ChatBotPrograWeb3\\BotPeliculas.Bot\\wwwroot\\default.htm",
+      "Identity": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Bot\\wwwroot\\default.htm",
       "SourceId": "BotPeliculas.Bot",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nico\\Desktop\\Web3\\ChatBotPrograWeb3\\BotPeliculas.Bot\\wwwroot\\",
+      "ContentRoot": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Bot\\wwwroot\\",
       "BasePath": "_content/BotPeliculas.Bot",
       "RelativePath": "default.htm",
       "AssetKind": "All",
