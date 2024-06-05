@@ -37,6 +37,14 @@ namespace BotPeliculas.Services
             return await FetchMoviesAsync(url);
         }
 
+
+        public async Task<string> GetTrailerUrlAsync(int movieId)
+        {
+            string url = Urls.GetTrailerUrl(movieId, apiKey);
+            return await FetchTrailerAsync(url);
+        }
+
+
         private async Task<Pelicula> FetchOneMovieAsync(string url)
         {
             HttpResponseMessage response = await _httpClient.GetAsync(url);
@@ -62,6 +70,27 @@ namespace BotPeliculas.Services
             return movies;
         }
 
+        private async Task<string> FetchTrailerAsync(string url)
+        {
+            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+            string responseBody = await response.Content.ReadAsStringAsync();
+            JObject json = JObject.Parse(responseBody);
+            return ExtractYouTubeTrailerUrl(json);
+        }
+
+        private string ExtractYouTubeTrailerUrl(JObject json)
+        {
+            var trailer = json["results"]
+                ?.FirstOrDefault(v =>
+                    v["type"]?.Value<string>() == "Trailer" &&
+                    v["site"]?.Value<string>() == "YouTube"
+                );
+
+            return trailer != null
+                ? $"https://www.youtube.com/watch?v={trailer["key"]}"
+                : null;
+        }
         private Pelicula MapJsonToPelicula(JToken movieJson)
         {
             return new Pelicula

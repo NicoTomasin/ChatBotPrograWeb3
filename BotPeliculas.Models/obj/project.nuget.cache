@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TUGzmyotufIoLYZDiXqs1VMw/ie++9VBrWNBofJdxF0+Fo6bgPylKtxg94FfYdroQtVpyHYodFtmR+n8KlwCcQ==",
+  "dgSpecHash": "RbCgXYLuQs4SJBAQns3KGAD1CdYobzgfEYx7CZn7/m4AWPVcrTfpHdegsGVPNkBLJ8NN3iHFw+KB6PFaou5b1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nico\\Desktop\\Web3\\ChatBotPrograWeb3\\BotPeliculas.Models\\BotPeliculas.Models.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\matia\\Desktop\\ChatBotPrograWeb3\\BotPeliculas.Models\\BotPeliculas.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\matia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }
