@@ -10,3 +10,15 @@ C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\refint\BotPeliculas.Models.dll
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.pdb
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\ref\BotPeliculas.Models.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\bin\Debug\net6.0\BotPeliculas.Models.deps.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\bin\Debug\net6.0\BotPeliculas.Models.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\bin\Debug\net6.0\BotPeliculas.Models.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.AssemblyInfoInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.AssemblyInfo.cs
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.csproj.CoreCompileInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.sourcelink.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\refint\BotPeliculas.Models.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\ref\BotPeliculas.Models.dll

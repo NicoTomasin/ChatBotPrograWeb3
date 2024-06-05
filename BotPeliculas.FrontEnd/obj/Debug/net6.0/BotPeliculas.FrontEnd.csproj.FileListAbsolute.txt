@@ -33,3 +33,38 @@ C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.pdb
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.genruntimeconfig.cache
 C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\ref\BotPeliculas.FrontEnd.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\appsettings.Development.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\appsettings.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.staticwebassets.runtime.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.exe
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.deps.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.runtimeconfig.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\BotPeliculas.FrontEnd.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Microsoft.Bot.Connector.DirectLine.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.csproj.AssemblyReference.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.AssemblyInfoInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.AssemblyInfo.cs
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.csproj.CoreCompileInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.MvcApplicationPartsAssemblyInfo.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.RazorAssemblyInfo.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.RazorAssemblyInfo.cs
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.sourcelink.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\staticwebassets.build.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\staticwebassets.development.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\staticwebassets\msbuild.BotPeliculas.FrontEnd.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.BotPeliculas.FrontEnd.props
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BotPeliculas.FrontEnd.props
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BotPeliculas.FrontEnd.props
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\scopedcss\bundle\BotPeliculas.FrontEnd.styles.css
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\scopedcss\projectbundle\BotPeliculas.FrontEnd.bundle.scp.css
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPelic.FF12CE19.Up2Date
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\refint\BotPeliculas.FrontEnd.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\BotPeliculas.FrontEnd.genruntimeconfig.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.FrontEnd\obj\Debug\net6.0\ref\BotPeliculas.FrontEnd.dll

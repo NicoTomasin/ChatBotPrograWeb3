@@ -1210,33 +1210,6 @@
           }
         }
       },
-      "BotPelicualas.Logica/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "BotPeliculas.Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/BotPelicualas.Logica.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BotPelicualas.Logica.dll": {}
-        }
-      },
-      "BotPeliculas.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
-        },
-        "compile": {
-          "bin/placeholder/BotPeliculas.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BotPeliculas.Data.dll": {}
-        }
-      },
       "BotPeliculas.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1253,6 +1226,10 @@
       "BotPeliculas.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
         "compile": {
           "bin/placeholder/BotPeliculas.Models.dll": {}
         },
@@ -2995,16 +2972,6 @@
         "version.txt"
       ]
     },
-    "BotPelicualas.Logica/1.0.0": {
-      "type": "project",
-      "path": "../BotPelicualas.Logica/BotPelicualas.Logica.csproj",
-      "msbuildProject": "../BotPelicualas.Logica/BotPelicualas.Logica.csproj"
-    },
-    "BotPeliculas.Data/1.0.0": {
-      "type": "project",
-      "path": "../BotPeliculas.Data/BotPeliculas.Data.csproj",
-      "msbuildProject": "../BotPeliculas.Data/BotPeliculas.Data.csproj"
-    },
     "BotPeliculas.Interfaces/1.0.0": {
       "type": "project",
       "path": "../BotPeliculas.Interfaces/BotPeliculas.Interfaces.csproj",
@@ -3023,8 +2990,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BotPelicualas.Logica >= 1.0.0",
-      "BotPeliculas.Data >= 1.0.0",
       "BotPeliculas.Interfaces >= 1.0.0",
       "BotPeliculas.Services >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.7",
@@ -3060,12 +3025,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPelicualas.Logica\\BotPelicualas.Logica.csproj": {
-              "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPelicualas.Logica\\BotPelicualas.Logica.csproj"
-            },
-            "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Data\\BotPeliculas.Data.csproj": {
-              "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Data\\BotPeliculas.Data.csproj"
-            },
             "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj": {
               "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj"
             },
