@@ -50,18 +50,30 @@ public class Top10 : ComponentDialog
             ? await _peliculasService.TopTenMoviesOfTheDayAsync()
             : await _peliculasService.TopTenMoviesOfGenderAsync(genre);
 
-        return movies.Select(CreateHeroCard).ToList();
+        var heroCards = movies.Select(movie =>
+        {
+            var trailerUrl = _peliculasService.GetTrailerUrlAsync(movie.Id).Result;
+            return CreateHeroCard(movie, trailerUrl);
+        }).ToList();
+
+        return heroCards;
     }
 
-    private HeroCard CreateHeroCard(Pelicula movie)
+    private HeroCard CreateHeroCard(Pelicula movie, string trailerUrl)
     {
         var imageUrl = Urls.GetImageUrl(movie.PosterPath);
 
         return new HeroCard
         {
             Title = movie.Title,
-            Images = new List<CardImage> { new CardImage(imageUrl) }
+            Images = new List<CardImage> { new CardImage(imageUrl) },
+            Buttons = new List<CardAction>
+            {
+                new CardAction(ActionTypes.PlayVideo, "Ver Tráiler", value: trailerUrl),
+
+            }
         };
+
     }
 
     private async Task<DialogTurnResult> EndDialogAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)

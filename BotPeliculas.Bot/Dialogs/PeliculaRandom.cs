@@ -64,7 +64,8 @@ public class PeliculaRandom : ComponentDialog
         if (movies.Any())
         {
             var randomMovie = GetRandomMovie(movies);
-            return CreateHeroCard(randomMovie);
+            var trailerUrl = _peliculasService.GetTrailerUrlAsync(randomMovie.Id).Result;
+            return CreateHeroCard(randomMovie, trailerUrl);
         }
         else
         {
@@ -76,15 +77,21 @@ public class PeliculaRandom : ComponentDialog
         var random = new Random();
         return movies[random.Next(0, movies.Count)];
     }
-    private HeroCard CreateHeroCard(Pelicula movie)
+    private HeroCard CreateHeroCard(Pelicula movie, string trailerUrl)
     {
         var imageUrl = Urls.GetImageUrl(movie.PosterPath);
+
         return new HeroCard
         {
             Title = movie.Title,
-            Images = new List<CardImage> { new CardImage(imageUrl) }
+            Images = new List<CardImage> { new CardImage(imageUrl) },
+            Buttons = new List<CardAction>
+            {
+                new CardAction(ActionTypes.PlayVideo, "Ver Tráiler", value: trailerUrl),
+
+            }
         };
-    }
+    }   
     private HeroCard CreateNoMoviesFoundHeroCard()
     {
         return new HeroCard { Title = "No se encontraron películas" };

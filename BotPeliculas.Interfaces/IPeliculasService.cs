@@ -8,5 +8,7 @@ namespace BotPeliculas.Interfaces
         Task<List<Pelicula>> TopTenMoviesOfGenderAsync(string genre);
         Task<List<Pelicula>> RandomMovieAsync(string genre);
         Task<Pelicula> MostPopularMovieAsync(string genre);
+        Task<string> GetTrailerUrlAsync(int movieId);
+
     }
 }

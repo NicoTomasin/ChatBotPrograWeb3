@@ -34,5 +34,10 @@ namespace BotPeliculas
         {
             return $"{BaseDiscoverUrl}{apiKey}&with_genres={genre}&sort_by=vote_average.desc&vote_count.gte=10000";
         }
+
+        public static string GetTrailerUrl(int movieId, string ApiKey)
+        {
+            return $"{ApiBaseUrl}/movie/{movieId}/videos?api_key={ApiKey}";
+        }
     }
 }

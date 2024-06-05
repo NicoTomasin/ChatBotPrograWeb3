@@ -53,14 +53,20 @@ public class MasVista : ComponentDialog
             return new HeroCard { Title = "No se encontraron películas" };
         }
         var imageUrl = Urls.GetImageUrl(movie.PosterPath);
+        var trailerUrl = await _peliculasService.GetTrailerUrlAsync(movie.Id);
         return new HeroCard
         {
             Title = movie.Title,
-            Images = new List<CardImage> { new CardImage(imageUrl) }
+            Images = new List<CardImage> { new CardImage(imageUrl) },
+             Buttons = new List<CardAction>
+            {
+                new CardAction(ActionTypes.OpenUrl, "Ver Tráiler", value: trailerUrl),
+
+            }
         };
     }
     private async Task<DialogTurnResult> EndDialogAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
-    {
+    {   
         return await stepContext.ReplaceDialogAsync(nameof(RootDialog), null, cancellationToken);
     }
 
