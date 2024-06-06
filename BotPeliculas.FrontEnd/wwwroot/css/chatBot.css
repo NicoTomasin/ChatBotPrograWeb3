@@ -47,7 +47,7 @@
 }
 
 .webchat {
-    font-size: 10px !important;
+    font-size: 15px !important;
     height: 100%;
     width: 100%;
 }
@@ -88,7 +88,40 @@
     font-size: 15px !important;
 }
 
+
 .ac-pushButton {
+    font-size:12px !important;
     height: auto !important;
     width: auto !important;
+}
+
+@media (max-width: 1366px) {
+    .chat-window {
+        width: 400px;
+        height: 400px;
+        bottom: 70px;
+        right: 20px;
+
+    }
+
+    .chat-button {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .chat-window {
+        width: 350px;
+        height: 350px;
+        bottom: 50px;
+        right: 15px;
+    }
+
+    .chat-button {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+    }
 }
