@@ -51,6 +51,9 @@ La idea detras del bot es que mediante diferentes menus, te recomiende una pelic
 ## Authores
 - [@lucamodic](https://github.com/lucamodic)
 - [@NicoTomasin](https://github.com/NicoTomasin)
+- [@LucasGomezz](https://github.com/LucasGomezz)
+- [@GonzaSalda](https://github.com/GonzaSalda)
+- [@dersy1](https://github.com/dersy1)
 
 
 ![Logo](https://miel.unlam.edu.ar/vista/imagenes/logos/unlam/logo-unlam-light-40.png)
