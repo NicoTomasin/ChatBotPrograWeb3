@@ -46,11 +46,11 @@
        display: flex;
         align-items: center;
     }
-    .title h1 {
-        text-transform: uppercase;
-        font-weight: 700;
-        color: white;
-    }
+.title h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff4141 !important;
+}
 
     .star{
         color:yellow;
