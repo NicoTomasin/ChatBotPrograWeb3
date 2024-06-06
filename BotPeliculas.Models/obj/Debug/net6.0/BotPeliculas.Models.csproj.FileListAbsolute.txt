@@ -22,3 +22,6 @@ D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\De
 D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\refint\BotPeliculas.Models.dll
 D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.pdb
 D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\ref\BotPeliculas.Models.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\bin\Debug\net6.0\BotPeliculas.Models.runtimeconfig.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.csproj.AssemblyReference.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Models\obj\Debug\net6.0\BotPeliculas.Models.genruntimeconfig.cache

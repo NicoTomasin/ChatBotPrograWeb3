@@ -1980,6 +1980,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BotPeliculas.Interfaces >= 1.0.0",
+      "BotPeliculas.Models >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
   },
@@ -2012,6 +2013,9 @@
           "projectReferences": {
             "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj": {
               "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj"
+            },
+            "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Models\\BotPeliculas.Models.csproj": {
+              "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Models\\BotPeliculas.Models.csproj"
             }
           }
         }

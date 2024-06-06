@@ -1522,6 +1522,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BotPeliculas.Interfaces": "1.0.0",
+          "BotPeliculas.Models": "1.0.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {

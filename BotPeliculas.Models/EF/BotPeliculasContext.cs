@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace BotPeliculas.Bot.EF
+namespace BotPeliculas.Models.EF
 {
     public partial class BotPeliculasContext : DbContext
     {
@@ -16,7 +16,7 @@ namespace BotPeliculas.Bot.EF
         {
         }
 
-        public virtual DbSet<Usuario> Usuarios { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -33,20 +33,19 @@ namespace BotPeliculas.Bot.EF
             {
                 entity.ToTable("Usuario");
 
-                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.Id)
+                    .HasColumnName("id")
+                    .HasDefaultValueSql("((1))");
 
                 entity.Property(e => e.Mail)
-                    .IsRequired()
                     .HasMaxLength(50)
                     .HasColumnName("mail");
 
                 entity.Property(e => e.Password)
-                    .IsRequired()
                     .HasMaxLength(50)
                     .HasColumnName("password");
 
                 entity.Property(e => e.UserName)
-                    .IsRequired()
                     .HasMaxLength(50)
                     .HasColumnName("userName");
             });

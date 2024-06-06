@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "BotPeliculas.Bot/1.0.0": {
         "dependencies": {
-          "BotPeliculas.Data": "1.0.0",
           "BotPeliculas.Interfaces": "1.0.0",
           "BotPeliculas.Services": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.7",
@@ -706,15 +705,6 @@
           }
         }
       },
-      "BotPeliculas.Data/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
-        },
-        "runtime": {
-          "BotPeliculas.Data.dll": {}
-        }
-      },
       "BotPeliculas.Interfaces/1.0.0": {
         "dependencies": {
           "BotPeliculas.Models": "1.0.0"
@@ -724,6 +714,10 @@
         }
       },
       "BotPeliculas.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
         "runtime": {
           "BotPeliculas.Models.dll": {}
         }
@@ -731,6 +725,7 @@
       "BotPeliculas.Services/1.0.0": {
         "dependencies": {
           "BotPeliculas.Interfaces": "1.0.0",
+          "BotPeliculas.Models": "1.0.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -1234,11 +1229,6 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
-    },
-    "BotPeliculas.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "BotPeliculas.Interfaces/1.0.0": {
       "type": "project",

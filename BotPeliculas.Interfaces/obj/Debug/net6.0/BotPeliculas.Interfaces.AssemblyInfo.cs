@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BotPeliculas.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9897ee6b311be0c35415c0a2d5198322f1fd6ffa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab8a1f57de2e663fcbbfad4576f884d6ea571544")]
 [assembly: System.Reflection.AssemblyProductAttribute("BotPeliculas.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BotPeliculas.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
