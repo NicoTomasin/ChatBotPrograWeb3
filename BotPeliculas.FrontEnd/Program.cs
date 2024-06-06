@@ -1,7 +1,14 @@
+using BotPeliculas.Models.EF;
+using BotPeliculas.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<BotPeliculasContext>();
+builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
+
 
 var app = builder.Build();
 
@@ -22,6 +29,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Usuario}/{action=Registro}/{id?}");
 
 app.Run();

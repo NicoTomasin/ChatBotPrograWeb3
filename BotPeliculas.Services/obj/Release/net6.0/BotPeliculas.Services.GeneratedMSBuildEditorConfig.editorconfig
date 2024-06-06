@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BotPeliculas.Services
-build_property.ProjectDir = C:\Users\Nico\Desktop\Web3\ChatBotPrograWeb3\BotPeliculas.Services\
+build_property.ProjectDir = D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

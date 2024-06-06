@@ -1,0 +1,12 @@
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\BotPelicualas.Logica.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\BotPelicualas.Logica.AssemblyInfoInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\BotPelicualas.Logica.AssemblyInfo.cs
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\BotPelicualas.Logica.csproj.CoreCompileInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\BotPelicualas.Logica.sourcelink.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\bin\Debug\net6.0\BotPelicualas.Logica.deps.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\bin\Debug\net6.0\BotPelicualas.Logica.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\bin\Debug\net6.0\BotPelicualas.Logica.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\BotPelicualas.Logica.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\refint\BotPelicualas.Logica.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\BotPelicualas.Logica.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPelicualas.Logica\obj\Debug\net6.0\ref\BotPelicualas.Logica.dll

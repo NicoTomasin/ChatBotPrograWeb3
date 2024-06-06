@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BotPeliculas.Interfaces\BotPeliculas.Interfaces.csproj" />
+    <ProjectReference Include="..\BotPeliculas.Models\BotPeliculas.Models.csproj" />
   </ItemGroup>
 
 </Project>

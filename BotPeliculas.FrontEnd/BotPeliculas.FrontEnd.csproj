@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Bot.Connector.DirectLine" Version="3.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BotPeliculas.Models\BotPeliculas.Models.csproj" />
+    <ProjectReference Include="..\BotPeliculas.Services\BotPeliculas.Services.csproj" />
+  </ItemGroup>
+
 </Project>
