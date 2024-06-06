@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BotPeliculas.Interfaces\BotPeliculas.Interfaces.csproj" />
     <ProjectReference Include="..\BotPeliculas.Models\BotPeliculas.Models.csproj" />
     <ProjectReference Include="..\BotPeliculas.Services\BotPeliculas.Services.csproj" />
   </ItemGroup>

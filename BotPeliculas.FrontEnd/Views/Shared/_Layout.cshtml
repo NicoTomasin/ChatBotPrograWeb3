@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BotPeliculas.FrontEnd.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/carousel.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="border-bottom: 1px solid #2b2d2f">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BotPeliculas</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -22,27 +23,50 @@
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Iniciar Sesión</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Login">Iniciar Sesión</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Registrarse</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Account" asp-action="Register">Registrarse</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="carousel-inner">
+        @for (int i = 0; i < ViewBag.Movies.Count; i++)
+        {
+            var movie = ViewBag.Movies[i];
+            var activeClass = i == 0 ? "active" : "";
+            <div class="carousel-item @activeClass" style="background-image: url('https://image.tmdb.org/t/p/w1280/@movie.BackdropPath');">
+                <div class="carousel-caption">
+                    <div class="title">
+                        <div>
+                            <h1>@movie.Title</h1>
+                        </div>
+                        <div class="vote-average">
+                            <span class="star">★</span>
+                            <span>@movie.VoteAverage.ToString("F1")</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>@movie.Overview</p>
+                        <button class="Btn" onclick="mostrarTrailer('@movie.Id')">
+                            <div class="sign">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="text">Trailer</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    @RenderBody()
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - BotPeliculas.FrontEnd - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
-        </div>
-    </footer>
+    <script src="~/js/trailerView.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

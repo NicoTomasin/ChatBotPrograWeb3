@@ -1,3 +1,4 @@
+using BotPeliculas.Interfaces;
 using BotPeliculas.Models.EF;
 using BotPeliculas.Services;
 
@@ -8,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<BotPeliculasContext>();
 builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
-
+builder.Services.AddHttpClient<IPeliculasService, PeliculasService>();
 
 var app = builder.Build();
 

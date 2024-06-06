@@ -1,4 +1,31 @@
-﻿<div id="webchat"></div>
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/chatBot.css" asp-append-version="true" />
+    <title>Bot de Chat</title>
+</head>
+<body>
+
+    <button class="chat-button" id="chatButton">👾</button>
+
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-header">
+            Chat
+        </div>
+        <div class="chat-body" id="chatBody">
+            <div id="webchat" class="webchat"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script src="~/js/chatBot.js"></script>
+</body>
+</html>
+
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
 <script>
     (async function () {
@@ -38,7 +65,12 @@
                 userID: userID,
                 username: userName,
                 locale: locale,
-                store: store
+                store: store,
+                styleOptions: {
+                    botAvatarInitials: 'BP',
+                    userAvatarInitials: 'YO',
+                    backgroundColor: '#F8F8F8'
+                }
             },
             document.getElementById('webchat')
         );
