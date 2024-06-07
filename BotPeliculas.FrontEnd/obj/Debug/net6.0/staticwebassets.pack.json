@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\BotPeliculas.FrontEnd.bundle.scp.css"
     },
     {
+      "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\css\\carousel.css",
+      "PackagePath": "staticwebassets\\css\\carousel.css"
+    },
+    {
+      "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\css\\chatBot.css",
+      "PackagePath": "staticwebassets\\css\\chatBot.css"
+    },
+    {
+      "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,8 +25,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\js\\chatBot.js",
+      "PackagePath": "staticwebassets\\js\\chatBot.js"
+    },
+    {
       "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\js\\trailerView.js",
+      "PackagePath": "staticwebassets\\js\\trailerView.js"
     },
     {
       "Id": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.FrontEnd\\wwwroot\\lib\\bootstrap\\LICENSE",

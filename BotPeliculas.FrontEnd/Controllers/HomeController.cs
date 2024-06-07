@@ -19,6 +19,7 @@ namespace BotPeliculas.FrontEnd.Controllers
 
         public async Task<IActionResult> IndexAsync()
         {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString("UsuarioLogueado"))) return RedirectToAction("Login", "Usuario");
             var movies = await _peliculasService.TopTenMoviesOfTheDayAsync();
             ViewBag.Movies = movies;
             return View();
