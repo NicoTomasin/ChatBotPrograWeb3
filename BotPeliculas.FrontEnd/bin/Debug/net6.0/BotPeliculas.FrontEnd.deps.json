@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "BotPeliculas.FrontEnd/1.0.0": {
         "dependencies": {
+          "BotPeliculas.Interfaces": "1.0.0",
           "BotPeliculas.Models": "1.0.0",
           "BotPeliculas.Services": "1.0.0",
           "Microsoft.Bot.Connector.DirectLine": "3.0.2"

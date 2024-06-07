@@ -16,33 +16,47 @@ public class UsuarioController : Controller
     {
         return View();
     }
-    
+
     [HttpPost]
     public IActionResult Registro(Usuario usuario)
     {
 
         if (!ModelState.IsValid)
-            return View(usuario);    
-        
+            return View(usuario);
+
+        var usuarioExistente = _usuarioServicio.BuscarPorNombreDeUsuario(usuario.UserName);
+        if (usuarioExistente != null)
+        {
+            ModelState.AddModelError("UserName", "El nombre de usuario ya existe");
+            return View(usuario);
+        }
+
         _usuarioServicio.AgregarUsuario(usuario);
 
         return RedirectToAction("Login");
     }
-    public IActionResult Login() 
+    public IActionResult Login()
     {
         return View();
     }
 
     [HttpPost]
-    public IActionResult Login(string NombreUsuario, string Contrasenia)
+    public IActionResult Login(string UserName, string Contrasenia)
     {
-        var usuarioBuscado = _usuarioServicio.BuscarPorNombreDeUsuario(NombreUsuario);
-        if (usuarioBuscado.Password == Contrasenia)
+        var usuarioBuscado = _usuarioServicio.BuscarPorNombreDeUsuario(UserName);
+        if (usuarioBuscado != null && usuarioBuscado.Password == Contrasenia)
         {
+            HttpContext.Session.SetString("UsuarioLogueado", usuarioBuscado.UserName);
             return RedirectToAction("Index", "Home");
         }
-            return RedirectToAction("Login");
-        
+        return RedirectToAction("Login");
+
     }
-    
+
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Remove("UsuarioLogueado");
+        return RedirectToAction("Login");
+    }
+
 }

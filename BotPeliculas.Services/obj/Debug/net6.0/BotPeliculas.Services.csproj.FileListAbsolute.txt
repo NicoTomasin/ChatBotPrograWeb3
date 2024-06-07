@@ -34,3 +34,21 @@ C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\
 C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Models.pdb
 C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPelic.0731DE19.Up2Date
 C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\ref\BotPeliculas.Services.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Services.deps.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Services.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Services.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Interfaces.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Models.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Interfaces.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\bin\Debug\net6.0\BotPeliculas.Models.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.csproj.AssemblyReference.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.AssemblyInfoInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.AssemblyInfo.cs
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.csproj.CoreCompileInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.sourcelink.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPelic.0731DE19.Up2Date
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\refint\BotPeliculas.Services.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\BotPeliculas.Services.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Services\obj\Debug\net6.0\ref\BotPeliculas.Services.dll

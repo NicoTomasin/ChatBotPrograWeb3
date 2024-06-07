@@ -30,3 +30,19 @@ C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.
 C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\refint\BotPeliculas.Interfaces.dll
 C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.pdb
 C:\Users\matia\Desktop\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\ref\BotPeliculas.Interfaces.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Debug\net6.0\BotPeliculas.Interfaces.deps.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Debug\net6.0\BotPeliculas.Interfaces.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Debug\net6.0\BotPeliculas.Interfaces.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Debug\net6.0\BotPeliculas.Models.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\bin\Debug\net6.0\BotPeliculas.Models.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.csproj.AssemblyReference.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.AssemblyInfoInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.AssemblyInfo.cs
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.csproj.CoreCompileInputs.cache
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.sourcelink.json
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPelic.A9B145A7.Up2Date
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\refint\BotPeliculas.Interfaces.dll
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\BotPeliculas.Interfaces.pdb
+D:\Unlam\Programacion web 3\BotChat\ChatBotPrograWeb3\BotPeliculas.Interfaces\obj\Debug\net6.0\ref\BotPeliculas.Interfaces.dll

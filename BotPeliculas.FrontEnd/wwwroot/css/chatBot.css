@@ -52,11 +52,6 @@
     width: 100%;
 }
 
-
-
-
-
-
 .webchat__bubble__content {
     width: auto !important;
     height: auto !important;
@@ -90,7 +85,7 @@
 
 
 .ac-pushButton {
-    font-size:12px !important;
+    font-size: 12px !important;
     height: auto !important;
     width: auto !important;
 }
@@ -101,7 +96,6 @@
         height: 400px;
         bottom: 70px;
         right: 20px;
-
     }
 
     .chat-button {
@@ -111,12 +105,14 @@
     }
 }
 
-@media (max-width: 1024px) {
+
+@media (min-width: 1024px) {
     .chat-window {
-        width: 350px;
-        height: 350px;
+        width: 550px;
+        height: 550px;
         bottom: 50px;
         right: 15px;
+        margin-bottom: 10px;
     }
 
     .chat-button {

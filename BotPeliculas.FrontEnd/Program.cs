@@ -1,4 +1,5 @@
 using BotPeliculas.Interfaces;
+
 using BotPeliculas.Models.EF;
 using BotPeliculas.Services;
 
@@ -6,10 +7,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
 builder.Services.AddScoped<BotPeliculasContext>();
 builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
 builder.Services.AddHttpClient<IPeliculasService, PeliculasService>();
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Tiempo de expiración de la sesión
+    options.Cookie.HttpOnly = true; // Cookie de sesión accesible solo por el servidor
+    options.Cookie.IsEssential = true; // Asegurarse de que la cookie es esencial para la aplicación
+});
+
+
+
 
 var app = builder.Build();
 
@@ -25,6 +35,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession(); 
 
 app.UseAuthorization();
 

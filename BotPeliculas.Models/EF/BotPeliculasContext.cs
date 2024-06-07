@@ -35,7 +35,7 @@ namespace BotPeliculas.Models.EF
 
                 entity.Property(e => e.Id)
                     .HasColumnName("id")
-                    .HasDefaultValueSql("((1))");
+                    .ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Mail)
                     .HasMaxLength(50)
