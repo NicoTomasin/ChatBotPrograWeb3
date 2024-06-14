@@ -3000,19 +3000,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {},
+    "D:\\Program Files\\Visual Studio Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Bot\\BotPeliculas.Bot.csproj",
+      "projectUniqueName": "D:\\documento\\Desktop\\Universidad\\Progra Web 3\\Project\\ChatbotProject\\ChatBotPrograWeb3\\BotPeliculas.Bot\\BotPeliculas.Bot.csproj",
       "projectName": "BotPeliculas.Bot",
-      "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Bot\\BotPeliculas.Bot.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Bot\\obj\\",
+      "projectPath": "D:\\documento\\Desktop\\Universidad\\Progra Web 3\\Project\\ChatbotProject\\ChatBotPrograWeb3\\BotPeliculas.Bot\\BotPeliculas.Bot.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "D:\\documento\\Desktop\\Universidad\\Progra Web 3\\Project\\ChatbotProject\\ChatBotPrograWeb3\\BotPeliculas.Bot\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files\\Visual Studio Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3020,17 +3025,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj": {
-              "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj"
+            "D:\\documento\\Desktop\\Universidad\\Progra Web 3\\Project\\ChatbotProject\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj": {
+              "projectPath": "D:\\documento\\Desktop\\Universidad\\Progra Web 3\\Project\\ChatbotProject\\ChatBotPrograWeb3\\BotPeliculas.Interfaces\\BotPeliculas.Interfaces.csproj"
             },
-            "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Services\\BotPeliculas.Services.csproj": {
-              "projectPath": "D:\\Unlam\\Programacion web 3\\BotChat\\ChatBotPrograWeb3\\BotPeliculas.Services\\BotPeliculas.Services.csproj"
+            "D:\\documento\\Desktop\\Universidad\\Progra Web 3\\Project\\ChatbotProject\\ChatBotPrograWeb3\\BotPeliculas.Services\\BotPeliculas.Services.csproj": {
+              "projectPath": "D:\\documento\\Desktop\\Universidad\\Progra Web 3\\Project\\ChatbotProject\\ChatBotPrograWeb3\\BotPeliculas.Services\\BotPeliculas.Services.csproj"
             }
           }
         }
