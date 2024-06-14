@@ -39,5 +39,11 @@ namespace BotPeliculas
         {
             return $"{ApiBaseUrl}/movie/{movieId}/videos?api_key={ApiKey}";
         }
+
+        public static string GetUpcomingMoviesUrl(string apiKey)
+        {
+            return $"{ApiBaseUrl}/movie/upcoming?api_key={apiKey}";
+        }
+
     }
 }

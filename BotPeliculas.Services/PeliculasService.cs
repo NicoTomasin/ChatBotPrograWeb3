@@ -79,6 +79,12 @@ namespace BotPeliculas.Services
             return ExtractYouTubeTrailerUrl(json);
         }
 
+        public async Task<List<Pelicula>> GetUpcomingMoviesAsync()
+        {
+            string url = Urls.GetUpcomingMoviesUrl(apiKey);
+            return await FetchMoviesAsync(url);
+        }
+
         private string ExtractYouTubeTrailerUrl(JObject json)
         {
             var trailer = json["results"]

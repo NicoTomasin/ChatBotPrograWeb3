@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using BotPeliculas.Bot.Dialogs;
 using BotPeliculas.Interfaces;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
@@ -22,6 +23,7 @@ namespace Microsoft.BotBuilderSamples
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[] { ShowOptionsAsync, HandleOptionAsync }));
             AddDialog(new Top10(peliculasService));
             AddDialog(new RecomendarPelicula(peliculasService));
+            AddDialog(new ProximasPeliculas(peliculasService));
             InitialDialogId = nameof(WaterfallDialog);
             _peliculasService = peliculasService;
         }
@@ -34,7 +36,8 @@ namespace Microsoft.BotBuilderSamples
                 Buttons = new List<CardAction>
                 {
                     new CardAction(ActionTypes.ImBack, title: "Ver peliculas del dia", value: "Top10"),
-                    new CardAction(ActionTypes.ImBack, title: "Recomendar pelicula", value: "RecomendarPelicula")
+                    new CardAction(ActionTypes.ImBack, title: "Recomendar pelicula", value: "RecomendarPelicula"),
+                    new CardAction(ActionTypes.ImBack, title: "Próximas películas", value: "ProximasPeliculas")
                 }
             };
 
