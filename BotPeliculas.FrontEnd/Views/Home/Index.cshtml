@@ -37,35 +37,13 @@
             domain: `http://localhost:52881/v3/directline`, // Puerto de bot emulator
             webSocket: false
         });
-        const store = window.WebChat.createStore({}, ({ dispatch }) => next => action => {
-            if (action.type === 'DIRECT_LINE/CONNECT_FULFILLED') {
-                const cachedState = JSON.parse(localStorage.getItem('chatState'));
-                if (cachedState) {
-                    cachedState.activities.forEach(activity => {
-                        dispatch({
-                            type: 'DIRECT_LINE/INCOMING_ACTIVITY',
-                            payload: { activity }
-                        });
-                    });
-                }
-            }
-
-            if (action.type === 'DIRECT_LINE/INCOMING_ACTIVITY' || action.type === 'WEB_CHAT/SEND_POST_BACK') {
-                const state = store.getState();
-                localStorage.setItem('chatState', JSON.stringify({
-                    activities: state.activities
-                }));
-            }
-
-            return next(action);
-        }); 
+       
         window.WebChat.renderWebChat(
             {
                 directLine: directLine,
                 userID: userID,
                 username: userName,
                 locale: locale,
-                store: store,
                 styleOptions: {
                     botAvatarInitials: 'BP',
                     userAvatarInitials: 'YO',
